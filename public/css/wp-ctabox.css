@@ -1,0 +1,95 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.cta-banner1 {
+    background: #B3FFAB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #12FFF7, #B3FFAB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #12FFF7, #B3FFAB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 24px;
+    margin: 60px auto;
+    min-height: 180px;
+    position: relative;
+    max-width: 1250px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.12);
+}
+.cta-banner1 .cta-text {
+    height: 100%;
+    flex: 0 0 100%;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.cta-banner1 .cta-text h2 {
+    margin: 0 0 15px 0;
+    padding: 0;
+    font-size: 34px;
+    color: #212429;
+    flex: 0 0 100%;
+    text-align: center;
+    max-width: 650px;
+    font-family: inherit;
+    font-weight: 600;
+}
+.cta-banner1 .cta-text p {
+    font-size: 17px;
+    max-width: 680px;
+    text-align: center;
+    width: 100%;
+    color: #212429;
+    font-family: inherit;
+}
+.cta-banner1 .cta-text .btn-shape .btn_link {
+    border: 1px solid transparent;
+    border-radius: 6px;
+    padding: 15px 30px;
+    margin-top: 15px;
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    background: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.12);
+    font-family: inherit;
+}
+.cta-banner1 .cta-text #click-count {
+    padding-top: 10px;
+}
+@media only screen and (max-width: 767px){
+.cta-banner1 {
+    border-radius: 10px;
+    margin: 0 auto 30px;
+    padding: 20px 0 20px 0;
+    max-width: unset;
+    width: 90%;
+}
+.cta-banner1 .cta-text {
+    flex-direction: column;
+    padding: 0 15px;
+    align-items: flex-start;
+    align-items: center;
+}
+.cta-banner1 .cta-text h2 {
+    flex: 0 0 100%;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 0 0 10px 0;
+}
+.cta-banner1 .cta-text .btn-shape a.btn_link {
+    padding: 13px 20px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.cta-banner1 .cta-text p {
+    font-size: 13px;
+}
+}
